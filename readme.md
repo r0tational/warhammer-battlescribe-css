@@ -1,6 +1,6 @@
-This CSS adds a Kill Team flavour for Battlescribe's standard HTML output, and is designed to be more practical for reference printouts during games.
+This CSS adds a Kill Team flavour to Battlescribe's standard HTML output, and is designed to be more practical for referencing during games. It's optimised for printouts, but comes with a browser view, too.
 
-It looks like this when printed (with Minion/Gunplay fonts)
+It looks like this when printed:
 
 ![](https://github.com/r0tational/killteam-battlescribe/blob/master/print-page.png)
 
