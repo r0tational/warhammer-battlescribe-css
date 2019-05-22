@@ -1,0 +1,328 @@
+<style>
+            @import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+          @media only print {
+            div.battlescribe li.force {
+                columns: 200px 2;
+			      }
+
+            li.rootselection > h4 {
+              font-size: 12px;
+            }
+
+			      div.battlescribe {
+			          font-size: 10px;
+			      }
+
+            div.battlescribe p {
+                font-size: 10px;
+            }
+
+            div.battlescribe table {
+                font-size: 10px;
+            }
+
+            div.battlescribe h4 {
+                font-size: 13px;
+            }
+
+            div.battlescribe li.rootselection {
+                margin: 0px 0px 16px 0px;
+            }
+
+            div.battlescribe h1 {
+                width: 95%;
+            }
+
+         }
+
+         @media only screen {
+            div.battlescribe li.force {
+                width: 80%;
+                max-width: 800px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+			      div.battlescribe {
+			          font-size: 12px;
+			      }
+
+			      div.battlescribe p {
+                font-size: 12px;
+            }
+
+            div.battlescribe table {
+                font-size: 12px;
+            }
+
+            div.battlescribe h4 {
+                font-size: 15px;
+            }
+
+            li.rootselection > h4 {
+              font-size: 16px;
+            }
+
+            div.battlescribe li.rootselection {
+                margin-bottom: 16px;
+            }
+
+            div.battlescribe h1 {
+                width: 80%;
+                max-width: 800px;
+            }
+          }
+
+            li.force > p.rule-names {
+              margin-left: 10px;
+              margin-top: 20px;
+              margin-bottom: 20px;
+            }
+
+            body.battlescribe {
+                margin: 0px;
+                padding: 0px;
+                border-width: 0px;
+            }
+
+            div.battlescribe {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 8px;
+                border-width: 0px;
+                font-family: 'Minion Pro', 'Times New Roman', serif;
+                color: #444444;
+                text-align: left;
+            }
+
+            div.battlescribe h1,
+            div.battlescribe h2,
+            div.battlescribe h3,
+            div.battlescribe h4 {
+                margin: 0px;
+                padding: 0px;
+                border-width: 0px;
+            }
+
+            div.battlescribe h1 {
+              margin-top: 8px;
+              margin-bottom: 50px;
+              font-family: Gunplay, 'Black Ops One';
+              font-size: 24px;
+              color: #E3510E;
+              text-align: center;
+              text-transform: uppercase;
+              border-bottom: 1px #E3510E solid;
+              margin-left: auto;
+              margin-right: auto;
+            }
+
+            div.battlescribe h2 {
+              font-family: Gunplay, 'Black Ops One';
+              font-size: 20px;
+              color: #E3510E;
+              text-transform: uppercase;
+              text-align: center;
+              width: 90%;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: -30px;
+            }
+
+            div.battlescribe h3 {
+              font-size: 16px;
+              font-family: Gunplay, 'Black Ops One';
+              color: #E3510E;
+              text-transform: uppercase;
+              text-align: center;
+              margin-bottom: 5px;
+            }
+
+            li.rootselection > h4 {
+              font-variant: small-caps;
+            }
+
+            div.battlescribe h1 + p {
+                width: 80%;
+                max-width: 800px;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 50px;
+                padding-left: 20px;
+                }
+
+            div.summary h2 {
+                margin-top: 16px;
+                padding: 0px;
+                border-width: 0px;
+                font-family: Gunplay, 'Black Ops One';
+                font-size: 16px;
+                text-align: center;
+            }
+
+            div.battlescribe div.summary
+            {
+              margin-left: 0px;
+              page-break-before: avoid;
+              width: 50%;
+              max-width: 400px;
+              margin-left: auto;
+              margin-right: auto;
+            }
+
+            div.battlescribe div.summary p
+            {
+              padding: 10px;
+              border: 1px #E3510E solid;
+              margin-left: 0px;
+            }
+
+            div.battlescribe ul {
+                margin: 0px 0px -5px 0px;
+                padding: 0px;
+                border-width: 0px;
+
+                list-style-image: none;
+                list-style-position: outside;
+                list-style-type: none;
+            }
+
+            div.battlescribe li {
+                margin: 8px 0px 0px 0px;
+                padding: 0px;
+                border-width: 0px;
+            }
+
+            div.battlescribe li.force {
+                margin-bottom: 16px;
+                padding: 0px;
+                border-width: 0px;
+            }
+
+            div.battlescribe li.category
+            {
+              margin: 0px 0px 16px 0px;
+              padding: 0px;
+              border-width: 0px;
+              break-before: page;
+            }
+
+            div.battlescribe li.rootselection {
+                padding: 8px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: #E3510E;
+                break-inside: avoid-page;
+            }
+
+            div.battlescribe p {
+                margin: 4px 0px 0px 16px;
+                padding: 0px;
+                border-width: 0px;
+            }
+
+            div.battlescribe p.category-names {
+            }
+
+            div.battlescribe p.rule-names {
+            }
+
+            div.battlescribe p.profile-names {
+            }
+
+            div.battlescribe table {
+                margin-bottom: 5px;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 0px;
+                border-collapse: collapse;
+                width: 98%;
+                color: #444444;
+                page-break-inside: avoid;
+            }
+
+            div.battlescribe tr {
+                border-width: 1px;
+                border-style: solid;
+                border-color: #E3510E;
+
+            }
+
+            tr:nth-child(even) {background: #FBE6DC}
+            tr:nth-child(odd) {background: #FFF}
+
+            div.battlescribe th {
+                padding: 4px;
+                margin: 0px;
+                border-width: 0px;
+                color: black;
+                font-weight: bold;
+                text-align: left;
+                background-color: #E3510E;
+            }
+
+            div.battlescribe td {
+                padding: 4px;
+                margin: 0px;
+                border-width: 0px;
+                text-align: left;
+            }
+
+            div.battlescribe td.profile-name {
+                font-weight: bold;
+            }
+
+            div.battlescribe td.statistic-name {
+                font-weight: bold;
+            }
+
+            div.battlescribe table.statistics {
+            }
+
+            div.battlescribe table.statistics tr.subtotal {
+                font-weight: bold;
+            }
+
+            div.battlescribe table.statistics tr.total {
+                font-size: 13px;
+                font-weight: bold;
+            }
+
+            div.battlescribe table.statistics th {
+                border-width: 1px;
+                border-style: solid;
+                border-color: #BBBBBB;
+
+                font-size: 13px;
+                text-align: right;
+            }
+
+            div.battlescribe table.statistics th.center {
+                text-align: center;
+            }
+
+            div.battlescribe table.statistics td {
+                border-width: 4px;
+                border-style: solid;
+                border-color: #BBBBBB;
+
+                text-align: right;
+            }
+
+            div.battlescribe span.bold {
+                font-weight: bold;
+            }
+
+            div.battlescribe span.italic {
+                font-style: italic;
+            }
+
+            div.battlescribe span.caps {
+                font-variant: small-caps;
+                font-weight: bold;
+            }
+
+        </style>
