@@ -129,6 +129,7 @@
               width: 90%;
               margin-left: auto;
               margin-right: auto;
+
             }
 
             div.battlescribe h3 {
@@ -214,7 +215,7 @@
                 border-width: 1px;
                 border-style: solid;
                 border-color: #E3510E;
-                break-inside: avoid-page;
+                page-break-inside: avoid;
             }
 
             div.battlescribe p {
@@ -233,7 +234,7 @@
             }
 
             div.battlescribe table {
-                margin-bottom: 5px;
+                margin-bottom: 10px;
                 margin-right: auto;
                 margin-left: auto;
                 padding: 0px;
