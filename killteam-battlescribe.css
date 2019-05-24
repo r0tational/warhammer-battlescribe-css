@@ -121,7 +121,7 @@
 
             div.battlescribe h1 {
               margin-top: 8px;
-              margin-bottom: 50px;
+              margin-bottom: 20px;
               font-family: Gunplay, 'Black Ops One';
               font-size: 24px;
               color: #E3510E;
@@ -141,6 +141,7 @@
               width: 90%;
               margin-left: auto;
               margin-right: auto;
+              margin-bottom: 20px;
 
             }
 
@@ -157,13 +158,24 @@
               font-variant: small-caps;
             }
 
-            div.battlescribe h1 + p {
-                width: 80%;
-                max-width: 800px;
+            div.battlescribe h1 + p, .battlescribe > p:first-of-type {
+                width: 50%;
+                max-width: 400px;
+                min-width: 200px;
                 margin-right: auto;
                 margin-left: auto;
-                margin-bottom: 50px;
-                padding-left: 20px;
+                margin-bottom: 20px;
+                font-style: italic;
+                border-width: 1px;
+                border-style: solid;
+                padding: 10px;
+                border-color: #E3510E;
+                }
+
+            div.battlescribe h1 + p::before, .battlescribe > p:first-of-type::before {
+                content: "Roster notes: ";
+                font-weight: bold;
+                font-style: normal;
                 }
 
             div.summary h2 {
