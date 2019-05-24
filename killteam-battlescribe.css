@@ -1,5 +1,19 @@
 <style>
-            @import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+          @import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+          @media only screen and (min-width: 480px) {
+            div.battlescribe li.force {
+                width: 95%;
+                max-width: 800px;
+                }
+          }
+
+          @media only screen and (min-width: 992px) {
+            div.battlescribe li.force {
+                width: 80%;
+                max-width: 800px;
+                }
+          }
 
           @media only print {
             div.battlescribe li.force {
@@ -38,8 +52,6 @@
 
          @media only screen {
             div.battlescribe li.force {
-                width: 80%;
-                max-width: 800px;
                 margin-right: auto;
                 margin-left: auto;
             }
@@ -93,7 +105,7 @@
                 margin-right: auto;
                 padding: 8px;
                 border-width: 0px;
-                font-family: 'Minion Pro', 'Times New Roman', serif;
+                font-family: 'Minion Pro', 'Book Antiqua', Palatino, serif;
                 color: #444444;
                 text-align: left;
             }
