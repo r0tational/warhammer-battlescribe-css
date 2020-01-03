@@ -2,7 +2,7 @@ This CSS adds a Kill Team flavour to Battlescribe's standard HTML output. It's d
 
 It looks like this on my iPad:
 
-![](https://github.com/r0tational/killteam-battlescribe/blob/master/screen-page.png)
+![](https://github.com/r0tational/killteam-battlescribe/blob/master/screen_page.png)
 
 And when printed it looks like this:
 
