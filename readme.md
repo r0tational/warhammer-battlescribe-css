@@ -6,7 +6,7 @@ It looks like this on my iPad:
 
 And when printed it looks like this:
 
-![](https://github.com/r0tational/killteam-battlescribe/blob/master/print-page.jpg)
+![](https://github.com/r0tational/killteam-battlescribe/blob/master/print_page.jpg)
 
 I'm neither a designer nor a web developer, so I'm making no claims for my CSS skills! But please feel free to use as-is at your discretion and, of course, adapt/amend to your heart's content!
 
