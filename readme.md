@@ -18,6 +18,10 @@ Here's what to do:
 4. Paste it into the HTML file, replacing everything between and *including* the `<style>` and `</style>` tags
 5. Save the HTML and open it in a web browser. Chrome and Firefox recommended (Safari won't print with the print view for some reason). Then print, ensuring that the Background Graphics option is checked in the print dialog
 
+OR!
+
+You can use a web interface built by [/u/czi](https://www.reddit.com/u/czi). Just upload your HTML output to [http://killteam.lovegronvall.se:81](http://killteam.lovegronvall.se:81). Just to note that since it's not made by me, I can't guarantee if/when it'll incorporate future updates I make to the CSS.
+
 Some quick notes:
 
 - It displays in two ways. On your screen it should appear as a single column and be fairly clear to reference on a tablet during a game. Print it out, however, and it switches to a two-column view with smaller text.
