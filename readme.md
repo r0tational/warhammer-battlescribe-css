@@ -10,7 +10,7 @@ And when printed it looks like this:
 
 I'm neither a designer nor a web developer, so I'm making no claims for my CSS skills! But please feel free to use as-is at your discretion and, of course, adapt/amend to your heart's content!
 
-Here's what to do:
+## How to use
 
 1. Grab the replacement CSS [from here](https://github.com/r0tational/killteam-battlescribe/blob/master/killteam-battlescribe.css)
 2. Use Battlescribe to generate an HTML file and open in a text editor
@@ -22,7 +22,7 @@ OR!
 
 You can use a web interface built by [/u/czi](https://www.reddit.com/u/czi). Just upload your HTML output to [http://killteam.lovegronvall.se:81](http://killteam.lovegronvall.se:81). Just to note that since it's not made by me, I can't guarantee if/when it'll incorporate future updates I make to the CSS.
 
-Some quick notes:
+## Notes
 
 - It displays in two ways. On your screen it should appear as a single column and be fairly clear to reference on a tablet during a game. Print it out, however, and it switches to a two-column view with smaller text.
 - If you have it installed, the CSS will use the (premium) Minion Pro font, which is used in the official Kill Team rules book. Otherwise, it'll default to the Google Fonts-hosted Garamond EB, which is very similar.
