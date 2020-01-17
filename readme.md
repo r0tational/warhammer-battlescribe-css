@@ -25,7 +25,6 @@ You can use a web interface built by [/u/czi](https://www.reddit.com/u/czi). Jus
 ## Notes
 
 - It displays in two ways. On your screen it should appear as a single column and be fairly clear to reference on a tablet during a game. Print it out, however, and it switches to a two-column view with smaller text.
-- If you have it installed, the CSS will use the (premium) Minion Pro font, which is used in the official Kill Team rules book. Otherwise, it'll default to the Google Fonts-hosted Garamond EB, which is very similar.
 - There are page break rules to prevent entries from splitting over columns and pages. I optimised it for keeping specialists, leaders/commanders/fire teams on single pages. The first page will be almost empty, and models with long lists of rules might break over pages and generally look terrible, but I've done what I can to make it practical.
 
 Please feel free to share any improvements with the community; I'll do my best to add any changes I feel improves the stylesheet. Hope it's useful!
