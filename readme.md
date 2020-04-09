@@ -1,4 +1,4 @@
-This CSS adds a Kill Team flavour to Battlescribe's standard HTML output. It's designed to be more practical for referencing during games, with two viewing modes: one for viewing on screens and one for printing out.
+This CSS adds a Kill Team flavour to Battlescribe's standard HTML output. It's designed to be more practical for referencing during games, with two viewing modes: one for viewing on screens and one for printing out, which is designed to fit as much as possible on the page.
 
 It looks like this on my iPad:
 
