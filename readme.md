@@ -1,4 +1,4 @@
-This CSS adds a Kill Team flavour to Battlescribe's standard HTML output. It's designed to be more practical for referencing during games, with two viewing modes: one for viewing on screens and one for printing out, which is designed to fit as much as possible on the page.
+This CSS adds a Kill Team flavour to Battlescribe's standard HTML output. It's designed to be more practical for referencing during games, with two viewing modes. One is tailored to viewing on screens and the other is designed for printing.
 
 It looks like this on my iPad:
 
@@ -8,7 +8,7 @@ And when printed it looks like this:
 
 ![](https://github.com/r0tational/killteam-battlescribe/blob/master/print_page.jpg)
 
-I'm neither a designer nor a web developer, so I'm making no claims for my CSS skills! But please feel free to use as-is at your discretion and, of course, adapt/amend to your heart's content!
+I'm neither a designer nor a web developer, so I'm making no claims for my CSS skills! But please feel free to use as-is at your discretion and, of course, adapt/amend to your heart's content.
 
 ## How to use
 
