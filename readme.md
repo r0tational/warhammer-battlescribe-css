@@ -1,30 +1,37 @@
-This CSS adds a Kill Team flavour to Battlescribe's standard HTML output. It's designed to be more practical for referencing during games, with two viewing modes. One is tailored to viewing on screens and the other is designed for printing.
+# Warhammer CSS for Battlescribe
 
-It looks like this on my iPad:
+This CSS adds Warhammer flavour to Battlescribe's HTML output for your Warhammer 40,000 and Kill Team rosters. It’s designed to be more practical for referencing during games and features a print-friendly mode.
 
-![](https://github.com/r0tational/killteam-battlescribe/blob/master/screen_page.png)
+Kill Team sheets look like this:
 
-And when printed it looks like this:
+![](pics/kt_screen.png)
 
-![](https://github.com/r0tational/killteam-battlescribe/blob/master/print_page.jpg)
+40,000 sheets look like this:
 
-I'm neither a designer nor a web developer, so I'm making no claims for my CSS skills! But please feel free to use as-is at your discretion and, of course, adapt/amend to your heart's content.
+![](pics/40k_screen.png)
+
+When printed, sheets are set into two columns, which works well for most Kill Team rosters but not so well for 40K because units feature more information. Printed Kill Team sheets look like this:
+
+![](pics/kt_print.jpg)
 
 ## How to use
 
-1. Grab the replacement CSS [from here](https://github.com/r0tational/killteam-battlescribe/blob/master/killteam-battlescribe.css)
+1. Grab the replacement CSS for the roster type you want:
+    - [Kill Team](killteam-battlescribe.css)
+    - [40,000](40k-battlescribe.css)
 2. Use Battlescribe to generate an HTML file and open in a text editor
 3. Copy the full text of the CSS
 4. Paste it into the HTML file, replacing everything between and *including* the `<style>` and `</style>` tags
-5. Save the HTML and open it in a web browser. Chrome and Firefox recommended (Safari won't print with the print view for some reason). Then print, ensuring that the Background Graphics option is checked in the print dialog
+5. Save the HTML and open it in a web browser
+6. To print, please use Chrome or Firefox (Safari won't print with the print viewm for some reason). Ensure that the Background Graphics option is checked in the print dialog
 
-OR!
-
-You can use a web interface built by [/u/czi](https://www.reddit.com/u/czi). Just upload your HTML output to [http://killteam.lovegronvall.se:81](http://killteam.lovegronvall.se:81). Just to note that since it's not made by me, I can't guarantee if/when it'll incorporate future updates I make to the CSS.
+OR! For Kill Team you can use a web interface built by [/u/czi](https://www.reddit.com/u/czi). Just visit [http://killteam.lovegronvall.se:81](http://killteam.lovegronvall.se:81) and upload your Battlescribe HTML output. Just to note that since it's not made by me, I can't guarantee if/when it incorporates updates I make to the CSS.
 
 ## Notes
 
-- It displays in two ways. On your screen it should appear as a single column and be fairly clear to reference on a tablet during a game. Print it out, however, and it switches to a two-column view with smaller text.
+- I'm neither a designer nor a web developer, so I'm making no claims for my CSS skills. The 40K CSS is relatively untested, so I welcome feedback to improve it.
+- The CSS displays your roster in two ways. On your screen it should appear as a single column and be fairly clear to reference on a tablet during a game. Print it out and it switches to a two-column view with smaller text.
 - There are page break rules to prevent entries from splitting over columns and pages. I optimised it for keeping specialists, leaders/commanders/fire teams on single pages. The first page will be almost empty, and models with long lists of rules might break over pages and generally look terrible, but I've done what I can to make it practical.
 
-Please feel free to share any improvements with the community; I'll do my best to add any changes I feel improves the stylesheet. Hope it's useful!
+
+Please feel free to use as-is and, of course, adapt/amend to your heart's content. Share any improvements with the community; I'll do my best to add any changes I feel improve the stylesheet. Hope it's useful!
