@@ -253,7 +253,8 @@
   div.battlescribe p.category-names:last-child { margin-bottom: 5px; }
   div.battlescribe p.rule-names { }
   div.battlescribe p.profile-names { display: none; }
-  li.rootselection > ul > li > p.category-names { display: none; }
+  li.category > ul > li.rootselection > ul > li > p.category-names { display: none; }
+  div.battlescribe span.bold { display: none; }
 
   div.battlescribe table
   {
