@@ -71,11 +71,10 @@
   }
   
 li.force > p.rule-names { 
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   margin-left: 0px;
   margin-top: -12px;
   font-variant: small-caps;
-  font-weight: bold;
   font-size: 16px;
 }
   
