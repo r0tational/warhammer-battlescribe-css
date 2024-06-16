@@ -2,7 +2,7 @@
 
   /* Kill Team stylesheet */
 
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap&family=PT+Sans:wght@400&display=swap&family=Roboto+Mono:wght@700&display=swap');
 
   @media only print
   {
@@ -87,7 +87,7 @@
   	margin-right: auto;
   	padding: 8px;
   	border-width: 0px;
-  	font-family: 'Iowan Old Style', 'Book Antiqua', Palatino, Times New Roman, serif;
+  	font-family: 'PT Sans', 'Times New Roman', 'Times', serif;
   	color: #444444;
   	text-align: left;
   }
@@ -114,15 +114,13 @@
 
   div.battlescribe h2
   {
-  	font-family: 'Oswald', sans-serif;
+  	font-family: 'Roboto Mono', sans-serif;
   	color: #222E33;
   	text-transform: uppercase;
   	margin-left: auto;
   	margin-right: auto;
   	margin-bottom: 20px;
-  	padding-top: 10px;
-  	margin-top: 30px;
-  	border-top: 3px #E1501E solid;
+  	border-top: ;
   	line-height: 1.1em;
   }
 
@@ -170,21 +168,15 @@
 
   div.summary h2
   {
-  	margin-top: 20px;
+  	margin-top: 10px;
   	margin-bottom: 10px;
   	padding: 0px;
   	border-width: 0px;
-  	font-family: 'Oswald', sans-serif;
+  	font-family: 'Roboto Mono', sans-serif;
   	font-size: 20px;
   	text-align: left;
-  	padding-top: 10px;
-  	border-top: 3px #E1501E solid;
-  }
-
-  li.rootselection > ul > li > h4
-  {
-  	font-variant: small-caps;
-  	padding-left: 5px;
+  	padding-top: 0px;
+  	border-top: 0px;
   }
 
   div.battlescribe div.summary
@@ -254,7 +246,7 @@
   div.battlescribe p.rule-names { }
   div.battlescribe p.profile-names { display: none; }
   li.category > ul > li.rootselection > ul > li > p.category-names { display: none; }
-  /* div.battlescribe span.bold { display: none; } */
+  div.battlescribe li.rootselection p span.bold { display: none; }
 
   div.battlescribe table
   {
@@ -297,6 +289,19 @@
   	vertical-align: top;
   }
 
+td.profile-name, 
+.summary span.bold, 
+li.rootselection span.bold, 
+li.rootselection tr:first-child {
+	font-family: Roboto Mono;
+}
+
+li.rootselection ul li h4 {
+	font-family: Roboto Mono;
+	text-transform: uppercase;
+	padding-left: 5px;
+  }
+
   div.battlescribe td.profile-name { font-weight: bold; }
   div.battlescribe td.statistic-name { font-weight: bold; }
   div.battlescribe table.statistics { }
@@ -332,7 +337,7 @@
 
   div.battlescribe span.caps
   {
-  	font-variant: small-caps;
+  	text-transform: uppercase;
   	font-weight: bold;
   }
 
