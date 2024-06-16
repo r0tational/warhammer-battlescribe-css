@@ -2,7 +2,7 @@
 
   /* Kill Team stylesheet */
 
-  @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&family=Oswald:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 
   @media only print
   {
@@ -87,7 +87,7 @@
   	margin-right: auto;
   	padding: 8px;
   	border-width: 0px;
-  	font-family: 'Crimson Pro', 'Book Antiqua', Palatino, serif;
+  	font-family: 'Iowan Old Style', 'Book Antiqua', Palatino, Times New Roman, serif;
   	color: #444444;
   	text-align: left;
   }
@@ -254,7 +254,7 @@
   div.battlescribe p.rule-names { }
   div.battlescribe p.profile-names { display: none; }
   li.category > ul > li.rootselection > ul > li > p.category-names { display: none; }
-  div.battlescribe span.bold { display: none; }
+  /* div.battlescribe span.bold { display: none; } */
 
   div.battlescribe table
   {
